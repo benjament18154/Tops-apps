@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.parallax {
+  /* The image used */
+  background-image: url('Images/parrallax.jpg');
+
+  /* Set a specific height */
+  min-height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ {
+	width: 350px;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url('Images/Steve jobs black and white.jpg');
+
+  /* Set a specific height */
+  min-height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url('Images/background image.jpg');
+
+  /* Set a specific height */
+  min-height: 300px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+html,
+body {
+    margin: center
+    padding:0;
+    height:100%;
+}
+#wrapper {
+    min-height:100%;
+    position:relative;
+}
+#header {
+    padding:10px;
+}
+#content {
+    padding:10px;
+    padding-bottom:80px;   /* Height of the footer element */
+}
+#footer {
+    width:100%;
+    height:80px;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+
+.float_right {
+	float: right;
+	padding-left: 20px;
+	width: 26%;
+}
+body {
+	width: 80%;
+	background-color: #8EE4AF;
+	font-size: medium;
+	text-align: justify;
+	font-family: 'Raleway', sans-serif;
+	margin: auto;
+}
+
+footer {
+	background-color: #5CDB95;
+	color: #05386B;
+	text-align: center;
+}
+
+
+li {
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #5CDB95;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	text-align: center;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+	padding: 25px 16px;
+	text-decoration: none;
+	font-size: 35px;
+	color: #05386B;
+}
+
+nav li a:hover,
+footer a:hover{
+	background-color: #3C7CCD;
+}
+
+
+
+
+
+
+
